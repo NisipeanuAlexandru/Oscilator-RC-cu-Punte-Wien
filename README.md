@@ -4,10 +4,10 @@
 Oscilatorul RC cu punte Wien este un circuit utilizat pentru generarea de semnale sinusoidale de frecvență reglabilă. Acesta este alcătuit dintr-o rețea RC în configurație Wien și un amplificator cu control automat al amplitudinii (TEC-J). Circuitul este destinat utilizării în diverse aplicații electronice unde este necesară o sursă de semnal sinusoidal stabilă și ajustabilă.
 
 ## Caracteristici Tehnice
-- **Frecvență de oscilație reglabilă**: 0,5N - 3N kHz
-- **Sarcină la ieșire**: N kΩ
+- **Frecvență de oscilație reglabilă**: 7,5 - 45 kHz
+- **Sarcină la ieșire**: 15 kΩ
 - **Control automat al amplitudinii**: realizat cu TEC-J
-- **Amplitudinea oscilației la ieșire**: [20/1,5N] V
+- **Amplitudinea oscilației la ieșire**: 20/1,5*15 V
 - **Domeniul temperaturilor de funcționare**: 0 - 70°C
 - **Semnalizare a tensiunilor de alimentare**: LED
 
