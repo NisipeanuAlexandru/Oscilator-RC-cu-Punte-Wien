@@ -1,0 +1,719 @@
+\t (00:01:31) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:01:31)     Journal start - Sun Dec 15 13:30:26 2024
+\t (00:01:31)         Host=DESKTOP-RSR33AM User=nisip Pid=4816 CPUs=16
+\t (00:01:31) CmdLine= D:\downloads\ORCAD\tools\bin\allegro.exe
+\t (00:01:31) 
+   (00:01:32) Loading axlcore.cxt 
+\t (00:01:32) Opening existing design...
+\d (00:01:32) Design opened: D:/APLICATII/P1_2024_431E_NISIPEANU_ALEXANDRU_COSMIN_OW_N15_ORCAD/SCHEMATICS/allegro/NISIPEANU_ALEXANDRU_P1_N15.brd
+\i (00:01:33) trapsize 2417
+\i (00:01:33) trapsize 2472
+\i (00:01:33) trapsize 2485
+\i (00:01:33) generaledit 
+\i (00:02:58) zoom in 1 
+\i (00:02:58) setwindow pcb
+\i (00:02:58) zoom in 8.9937 20.8304
+\i (00:02:58) trapsize 1242
+\i (00:03:00) zoom in 1 
+\i (00:03:00) setwindow pcb
+\i (00:03:00) zoom in 19.2565 18.8176
+\i (00:03:00) trapsize 621
+\i (00:03:07) roam y -96 
+\i (00:03:07) roam y -96
+\i (00:03:07) roam y -96 
+\i (00:03:07) roam y -96
+\i (00:03:08) roam y -96 
+\i (00:03:08) roam y -96
+\i (00:03:08) roam y -96 
+\i (00:03:08) roam y -96
+\i (00:03:09) roam y -96 
+\i (00:03:09) roam y -96
+\i (00:03:10) roam y -96 
+\i (00:03:10) roam y -96
+\i (00:04:21) zoom out 1 
+\i (00:04:21) setwindow pcb
+\i (00:04:21) zoom out 11.6526 28.8487
+\i (00:04:21) trapsize 1242
+\i (00:04:21) zoom out 1 
+\i (00:04:21) setwindow pcb
+\i (00:04:21) zoom out 10.5592 28.5007
+\i (00:04:21) trapsize 2485
+\i (00:04:21) zoom out 1 
+\i (00:04:21) setwindow pcb
+\i (00:04:21) zoom out 10.5592 28.5008
+\i (00:04:21) trapsize 4970
+\i (00:04:40) zoom in 1 
+\i (00:04:40) setwindow pcb
+\i (00:04:40) zoom in -4.3504 35.4587
+\i (00:04:40) trapsize 2485
+\i (00:04:41) zoom out 1 
+\i (00:04:41) setwindow pcb
+\i (00:04:41) zoom out -4.3007 35.4587
+\i (00:04:41) trapsize 4970
+\i (00:04:42) zoom in 1 
+\i (00:04:42) setwindow pcb
+\i (00:04:42) zoom in -5.1953 35.4588
+\i (00:04:42) trapsize 2485
+\i (00:04:44) zoom out 1 
+\i (00:04:44) setwindow pcb
+\i (00:04:44) zoom out 12.7460 30.7374
+\i (00:04:44) trapsize 4970
+\i (00:04:45) zoom in 1 
+\i (00:04:45) setwindow pcb
+\i (00:04:45) zoom in -4.4498 33.2224
+\i (00:04:45) trapsize 2485
+\i (00:04:46) zoom out 1 
+\i (00:04:46) setwindow pcb
+\i (00:04:46) zoom out 16.2746 27.7059
+\i (00:04:46) trapsize 4970
+\i (00:04:46) zoom in 1 
+\i (00:04:46) setwindow pcb
+\i (00:04:46) zoom in 12.2987 18.6606
+\i (00:04:46) trapsize 2485
+\i (00:04:47) zoom out 1 
+\i (00:04:47) setwindow pcb
+\i (00:04:47) zoom out 12.2987 18.6607
+\i (00:04:47) trapsize 4970
+\i (00:04:47) zoom in 1 
+\i (00:04:47) setwindow pcb
+\i (00:04:47) zoom in 12.2988 18.7600
+\i (00:04:47) trapsize 2485
+\i (00:04:48) zoom out 1 
+\i (00:04:48) setwindow pcb
+\i (00:04:48) zoom out 13.4916 19.6546
+\i (00:04:48) trapsize 4970
+\i (00:04:48) zoom in 1 
+\i (00:04:48) setwindow pcb
+\i (00:04:48) zoom in 14.0880 21.3444
+\i (00:04:48) trapsize 2485
+\i (00:04:48) zoom out 1 
+\i (00:04:48) setwindow pcb
+\i (00:04:48) zoom out 14.0880 21.3444
+\i (00:04:48) trapsize 4970
+\i (00:04:48) zoom out 1 
+\i (00:04:48) setwindow pcb
+\i (00:04:48) zoom out 14.0880 21.3444
+\i (00:04:48) trapsize 9940
+\i (00:04:49) zoom out 1 
+\i (00:04:49) setwindow pcb
+\i (00:04:49) zoom out 25.5229 21.3445
+\i (00:04:49) trapsize 19774
+\i (00:04:49) zoom in 1 
+\i (00:04:49) setwindow pcb
+\i (00:04:49) zoom in 0.7910 20.1692
+\i (00:04:49) trapsize 9887
+\i (00:04:50) zoom in 1 
+\i (00:04:50) setwindow pcb
+\i (00:04:50) zoom in -50.8182 -1.3840
+\i (00:04:50) trapsize 4943
+\i (00:04:51) zoom in 1 
+\i (00:04:51) setwindow pcb
+\i (00:04:51) zoom in -51.0159 -2.6693
+\i (00:04:51) trapsize 2472
+\i (00:04:51) zoom out 1 
+\i (00:04:51) setwindow pcb
+\i (00:04:51) zoom out -13.6437 5.0425
+\i (00:04:51) trapsize 4943
+\i (00:04:51) zoom out 1 
+\i (00:04:51) setwindow pcb
+\i (00:04:51) zoom out -14.1380 6.2288
+\i (00:04:51) trapsize 9887
+\i (00:04:51) zoom out 1 
+\i (00:04:51) setwindow pcb
+\i (00:04:51) zoom out 34.0107 7.8108
+\i (00:04:51) trapsize 19774
+\i (00:04:52) zoom in 1 
+\i (00:04:52) setwindow pcb
+\i (00:04:52) zoom in -11.8642 37.5700
+\i (00:04:52) trapsize 9887
+\i (00:04:53) zoom in 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) zoom in -11.6664 34.0108
+\i (00:04:53) trapsize 4943
+\i (00:07:31) nctape_full 
+\i (00:07:35) setwindow form.nc_drill
+\i (00:07:35) FORM nc_drill cancel  
+\i (00:07:36) setwindow pcb
+\i (00:07:36) generaledit 
+\i (00:07:38) ncdrill param 
+\i (00:07:38) generaledit 
+\i (00:07:45) setwindow form.nc_parameters
+\i (00:07:45) FORM nc_parameters english_units YES 
+\i (00:08:32) FORM nc_parameters done  
+\i (00:08:38) setwindow pcb
+\i (00:08:38) nctape_full 
+\i (00:08:48) setwindow form.nc_drill
+\i (00:08:48) FORM nc_drill browse  
+\i (00:08:52) fillin "menu_cancel"
+\i (00:08:57) FORM nc_drill execute  
+\t (00:08:57) Starting Generating NC Drill...
+\i (00:09:02) FORM nc_drill cancel  
+\i (00:09:02) setwindow pcb
+\i (00:09:02) generaledit 
+\i (00:17:03) zoom in 1 
+\i (00:17:03) setwindow pcb
+\i (00:17:03) zoom in -20.4657 26.8923
+\i (00:17:03) trapsize 2472
+\i (00:17:04) zoom out 1 
+\i (00:17:04) setwindow pcb
+\i (00:17:04) zoom out -14.0393 23.0859
+\i (00:17:04) trapsize 4943
+\i (00:17:04) zoom in 1 
+\i (00:17:04) setwindow pcb
+\i (00:17:04) zoom in -5.4377 13.4957
+\i (00:17:04) trapsize 2472
+\i (00:17:05) zoom out 1 
+\i (00:17:05) setwindow pcb
+\i (00:17:05) zoom out -5.4377 13.4957
+\i (00:17:05) trapsize 4943
+\i (00:17:20) zoom in 1 
+\i (00:17:20) setwindow pcb
+\i (00:17:20) zoom in -3.0648 -7.9587
+\i (00:17:20) trapsize 2472
+\i (00:17:20) zoom out 1 
+\i (00:17:20) setwindow pcb
+\i (00:17:20) zoom out 0.0001 -0.8896
+\i (00:17:20) trapsize 4943
+\i (00:17:26) zoom fit 
+\i (00:17:26) trapsize 2691
+\i (00:17:38) color192 
+\i (00:17:38) generaledit 
+\i (00:17:39) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:17:40) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:17:49) zoom fit 
+\i (00:17:49) trapsize 2618
+\i (00:17:57) trapsize 2616
+\i (00:17:57) trapsize 2604
+\i (00:17:57) trapsize 2576
+\i (00:17:57) trapsize 2562
+\i (00:17:58) trapsize 2522
+\i (00:17:58) trapsize 2506
+\i (00:17:58) trapsize 2499
+\i (00:17:58) trapsize 2491
+\i (00:17:58) trapsize 2489
+\i (00:17:58) trapsize 2485
+\i (00:17:58) trapsize 2480
+\i (00:17:58) trapsize 2479
+\i (00:17:59) trapsize 2459
+\i (00:17:59) trapsize 2445
+\i (00:17:59) trapsize 2437
+\i (00:17:59) trapsize 2428
+\i (00:17:59) trapsize 2422
+\i (00:17:59) trapsize 2410
+\i (00:17:59) trapsize 2409
+\i (00:17:59) trapsize 2410
+\i (00:17:59) trapsize 2406
+\i (00:17:59) trapsize 2372
+\i (00:18:00) trapsize 2348
+\i (00:18:00) trapsize 2347
+\i (00:18:00) trapsize 2346
+\i (00:18:00) trapsize 2344
+\i (00:18:00) trapsize 2343
+\i (00:18:00) trapsize 2344
+\i (00:18:01) trapsize 2343
+\i (00:18:01) trapsize 2339
+\i (00:18:01) trapsize 2337
+\i (00:18:01) trapsize 2335
+\i (00:18:01) trapsize 2333
+\i (00:18:01) trapsize 2332
+\i (00:18:01) trapsize 2329
+\i (00:18:01) trapsize 2328
+\i (00:18:01) trapsize 2317
+\i (00:18:02) trapsize 2315
+\i (00:18:02) trapsize 2289
+\i (00:18:02) trapsize 2279
+\i (00:18:05) zoom fit 
+\i (00:18:05) trapsize 2618
+\i (00:33:52) padeditdb 
+\i (00:33:54) pick grid 22.6437 8.5876
+\t (00:33:54) last pick:  22.6400 8.5900
+\i (00:33:54) prepopup 22.6437 8.5876
+\i (00:33:55) padeditcur 
+\i (00:35:28) nctape_full 
+\i (00:36:34) setwindow form.nc_drill
+\i (00:36:34) FORM nc_drill cancel  
+\i (00:36:34) setwindow pcb
+\i (00:36:34) generaledit 
+\i (00:37:58) pick grid 12.8542 35.8622
+\t (00:37:58) last pick:  12.8500 35.8600
+\i (00:38:00) padeditdb 
+\i (00:38:01) pick grid 12.1736 36.5428
+\t (00:38:01) last pick:  12.1700 36.5400
+\i (00:38:02) prepopup 12.6971 36.3334
+\i (00:38:03) padeditcur 
+\w (00:54:06) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:54:09) pick grid 10.7078 35.7575
+\t (00:54:09) last pick:  10.7100 35.7600
+\i (00:54:10) prepopup 10.7078 35.7575
+\i (00:54:11) padeditcur 
+\w (00:55:42) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:55:47) pick grid 4.7398 5.1848
+\t (00:55:47) last pick:  4.7400 5.1800
+\i (00:55:48) prepopup 4.8445 5.1848
+\i (00:55:49) padeditcur 
+\i (00:56:09) pick grid 21.9108 35.7052
+\t (00:56:09) last pick:  21.9100 35.7100
+\i (00:56:09) prepopup 21.9108 35.7052
+\i (00:56:11) padeditcur 
+\w (00:56:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:56:48) roam y -96 
+\i (00:56:48) roam y -96
+\i (00:56:49) zoom in 1 
+\i (00:56:49) setwindow pcb
+\i (00:56:49) zoom in 13.1159 38.9871
+\i (00:56:49) trapsize 1309
+\i (00:56:51) pick grid 20.8115 30.6372
+\t (00:56:51) last pick:  20.8100 30.6400
+\i (00:56:51) prepopup 20.8115 30.6372
+\i (00:56:53) pick grid 20.1047 32.3386
+\t (00:56:53) last pick:  20.1000 32.3400
+\i (00:56:54) prepopup 21.0209 30.3231
+\i (00:56:56) padeditcur 
+\w (00:57:21) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:57:25) pick grid 16.5711 30.8990
+\t (00:57:25) last pick:  16.5700 30.9000
+\i (00:57:26) prepopup 16.5711 30.8990
+\i (00:57:28) padeditcur 
+\w (01:00:06) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:00:09) roam y 96 
+\i (01:00:09) roam y 96
+\i (01:00:10) roam y 96 
+\i (01:00:10) roam y 96
+\i (01:00:12) pick grid 15.7858 24.9572
+\t (01:00:12) last pick:  15.7900 24.9600
+\i (01:00:12) prepopup 15.7858 24.9572
+\i (01:00:13) padeditcur 
+\i (01:00:19) roam y -96 
+\i (01:00:19) roam y -96
+\i (01:00:20) pick grid 4.8707 31.0821
+\t (01:00:20) last pick:  4.8700 31.0800
+\i (01:00:20) prepopup 4.8707 31.0821
+\i (01:00:21) padeditcur 
+\w (01:01:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:01:18) pick grid 4.1117 25.1142
+\t (01:01:18) last pick:  4.1100 25.1100
+\i (01:01:19) prepopup 4.1117 25.1142
+\i (01:01:19) padeditcur 
+\i (01:01:33) zoom out 1 
+\i (01:01:33) setwindow pcb
+\i (01:01:33) zoom out 5.2372 23.1510
+\i (01:01:33) trapsize 2618
+\i (01:01:34) roam y 96 
+\i (01:01:34) roam y 96
+\i (01:01:34) roam y 96 
+\i (01:01:34) roam y 96
+\i (01:01:35) zoom in 1 
+\i (01:01:35) setwindow pcb
+\i (01:01:35) zoom in 5.3419 14.2776
+\i (01:01:35) trapsize 1309
+\i (01:01:35) roam y -96 
+\i (01:01:35) roam y -96
+\i (01:01:36) prepopup 3.5359 25.7424
+\i (01:01:37) padeditcur 
+\i (01:01:41) roam y 96 
+\i (01:01:41) roam y 96
+\i (01:01:41) roam y 96 
+\i (01:01:41) roam y 96
+\i (01:01:42) roam y 96 
+\i (01:01:42) roam y 96
+\i (01:01:42) roam y 96 
+\i (01:01:42) roam y 96
+\i (01:01:42) roam y 96 
+\i (01:01:42) roam y 96
+\i (01:01:46) pick grid 11.1529 8.4928
+\t (01:01:46) last pick:  11.1500 8.4900
+\i (01:01:46) prepopup 10.8126 8.3620
+\i (01:01:49) padeditcur 
+\w (01:02:35) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:02:37) pick grid 15.7859 7.1579
+\t (01:02:37) last pick:  15.7900 7.1600
+\i (01:02:37) prepopup 15.8121 7.0794
+\i (01:02:38) padeditcur 
+\w (01:03:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:04:16) pick grid 10.6294 5.8491
+\t (01:04:16) last pick:  10.6300 5.8500
+\i (01:04:16) prepopup 10.5508 5.8491
+\i (01:04:17) padeditcur 
+\i (01:04:27) pick grid 10.7341 8.1002
+\t (01:04:27) last pick:  10.7300 8.1000
+\i (01:04:27) prepopup 10.7341 8.1002
+\i (01:04:28) padeditcur 
+\i (01:04:33) pick grid 10.9958 6.1109
+\t (01:04:33) last pick:  11.0000 6.1100
+\i (01:04:33) prepopup 10.9958 6.1109
+\i (01:04:34) padeditcur 
+\i (01:04:39) roam y -96 
+\i (01:04:39) roam y -96
+\i (01:04:39) pick grid 22.6700 8.5714
+\t (01:04:39) last pick:  22.6700 8.5700
+\i (01:04:40) prepopup 22.6700 8.5714
+\i (01:04:40) padeditcur 
+\i (01:05:53) zoom out 1 
+\i (01:05:53) setwindow pcb
+\i (01:05:53) zoom out 8.6139 10.6655
+\i (01:05:53) trapsize 2618
+\i (01:05:54) roam y -96 
+\i (01:05:54) roam y -96
+\i (01:05:54) roam y -96 
+\i (01:05:54) roam y -96
+\i (01:05:54) roam y 96 
+\i (01:05:54) roam y 96
+\i (01:06:26) pick grid 20.1309 14.0159
+\t (01:06:26) last pick:  20.1300 14.0200
+\i (01:06:26) prepopup 20.1309 14.0159
+\i (01:06:26) padeditcur 
+\i (01:07:01) roam y -96 
+\i (01:07:01) roam y -96
+\i (01:07:01) roam y -96 
+\i (01:07:01) roam y -96
+\i (01:07:02) roam y 96 
+\i (01:07:02) roam y 96
+\i (01:07:05) roam y -96 
+\i (01:07:05) roam y -96
+\i (01:07:06) roam y -96 
+\i (01:07:06) roam y -96
+\i (01:07:07) zoom in 1 
+\i (01:07:07) setwindow pcb
+\i (01:07:07) zoom in 11.3884 29.5117
+\i (01:07:07) trapsize 1309
+\i (01:07:09) prepopup 15.8906 36.7623
+\i (01:07:10) padeditcur 
+\i (01:07:52) pick grid 21.6492 35.4273
+\t (01:07:52) last pick:  21.6500 35.4300
+\i (01:07:52) prepopup 21.6492 35.4273
+\i (01:07:53) padeditcur 
+\i (01:08:03) pick grid 19.7645 35.5320
+\t (01:08:03) last pick:  19.7600 35.5300
+\i (01:08:03) prepopup 19.7645 35.5320
+\i (01:08:03) padeditcur 
+\i (01:08:16) pick grid 16.2309 34.6159
+\t (01:08:16) last pick:  16.2300 34.6200
+\i (01:08:16) prepopup 16.2309 34.6159
+\i (01:08:17) padeditcur 
+\i (01:08:25) pick grid 16.3356 36.6838
+\t (01:08:25) last pick:  16.3400 36.6800
+\i (01:08:25) prepopup 16.3356 36.6838
+\i (01:08:26) padeditcur 
+\w (01:08:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:08:51) pick grid 15.7859 34.2495
+\t (01:08:51) last pick:  15.7900 34.2500
+\i (01:08:51) prepopup 15.7859 34.2495
+\i (01:08:52) padeditcur 
+\i (01:09:03) roam y 96 
+\i (01:09:03) roam y 96
+\i (01:09:03) pick grid 33.3757 28.9358
+\t (01:09:03) last pick:  33.3800 28.9400
+\i (01:09:03) prepopup 33.3757 28.9358
+\i (01:09:04) padeditcur 
+\i (01:09:21) pick grid 13.3254 36.4743
+\t (01:09:21) last pick:  13.3300 36.4700
+\i (01:09:21) prepopup 13.1422 36.3434
+\i (01:09:23) padeditcur 
+\w (01:09:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:09:57) pick grid 10.5247 35.4273
+\t (01:09:57) last pick:  10.5200 35.4300
+\i (01:09:57) prepopup 10.5247 35.4273
+\i (01:09:58) padeditcur 
+\w (01:10:20) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:10:23) roam y 96 
+\i (01:10:23) roam y 96
+\i (01:10:23) roam y 96 
+\i (01:10:23) roam y 96
+\i (01:10:24) pick grid 31.9622 19.5127
+\t (01:10:24) last pick:  31.9600 19.5100
+\i (01:10:25) prepopup 31.9622 19.5127
+\i (01:10:25) padeditcur 
+\i (01:10:36) roam y -96 
+\i (01:10:36) roam y -96
+\i (01:10:36) roam y -96 
+\i (01:10:36) roam y -96
+\i (01:10:36) roam y -96 
+\i (01:10:36) roam y -96
+\i (01:10:37) roam y 96 
+\i (01:10:37) roam y 96
+\i (01:10:41) pick grid 21.1780 30.2184
+\t (01:10:41) last pick:  21.1800 30.2200
+\i (01:10:41) prepopup 21.1256 30.3493
+\i (01:10:42) padeditcur 
+\w (01:10:58) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:11:00) pick grid 21.1780 29.1452
+\t (01:11:00) last pick:  21.1800 29.1500
+\i (01:11:00) prepopup 20.9948 28.4123
+\i (01:11:01) padeditcur 
+\i (01:11:10) pick grid 17.1208 31.1083
+\t (01:11:10) last pick:  17.1200 31.1100
+\i (01:11:10) prepopup 17.1208 31.1083
+\i (01:11:11) padeditcur 
+\i (01:11:26) pick grid 17.5658 29.1452
+\t (01:11:26) last pick:  17.5700 29.1500
+\i (01:11:26) prepopup 17.1994 29.0929
+\i (01:11:27) padeditcur 
+\i (01:11:37) roam y 96 
+\i (01:11:37) roam y 96
+\i (01:11:37) roam y 96 
+\i (01:11:38) roam y 96
+\i (01:11:38) roam y 96 
+\i (01:11:38) roam y 96
+\i (01:11:38) roam y 96 
+\i (01:11:38) roam y 96
+\i (01:11:39) pick grid 25.6278 19.1201
+\t (01:11:39) last pick:  25.6300 19.1200
+\i (01:11:39) prepopup 25.5231 19.1201
+\i (01:11:40) padeditcur 
+\i (01:11:49) roam y -96 
+\i (01:11:49) roam y -96
+\i (01:11:49) roam y -96 
+\i (01:11:49) roam y -96
+\i (01:11:49) roam y -96 
+\i (01:11:49) roam y -96
+\i (01:11:50) pick grid 3.9547 31.5794
+\t (01:11:50) last pick:  3.9500 31.5800
+\i (01:11:54) prepopup 4.1117 31.3177
+\i (01:11:55) padeditcur 
+\w (01:12:22) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:12:25) pick grid 4.2426 24.8786
+\t (01:12:25) last pick:  4.2400 24.8800
+\i (01:12:26) prepopup 4.2688 25.0618
+\i (01:12:27) padeditcur 
+\i (01:12:35) roam y 96 
+\i (01:12:35) roam y 96
+\i (01:12:35) roam y 96 
+\i (01:12:35) roam y 96
+\i (01:12:35) roam y 96 
+\i (01:12:35) roam y 96
+\i (01:12:35) roam y 96 
+\i (01:12:35) roam y 96
+\i (01:12:36) roam y 96 
+\i (01:12:36) roam y 96
+\i (01:12:36) roam y 96 
+\i (01:12:36) roam y 96
+\i (01:12:37) pick grid 10.2629 8.1526
+\t (01:12:37) last pick:  10.2600 8.1500
+\i (01:12:37) prepopup 10.2629 8.1526
+\i (01:12:38) padeditcur 
+\w (01:13:10) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:13:13) pick grid 10.8126 6.0324
+\t (01:13:13) last pick:  10.8100 6.0300
+\i (01:13:13) prepopup 10.8126 6.0324
+\i (01:13:14) padeditcur 
+\i (01:13:24) pick grid 16.1000 7.3150
+\t (01:13:24) last pick:  16.1000 7.3200
+\i (01:13:24) prepopup 16.1000 7.3150
+\i (01:13:25) padeditcur 
+\w (01:13:53) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:13:56) roam y -96 
+\i (01:13:56) roam y -96
+\i (01:13:57) roam y 96 
+\i (01:13:57) roam y 96
+\i (01:13:58) roam y -96 
+\i (01:13:58) roam y -96
+\i (01:13:59) pick grid 26.0989 13.2568
+\t (01:13:59) last pick:  26.1000 13.2600
+\i (01:14:00) prepopup 26.3345 13.2829
+\i (01:14:00) padeditcur 
+\i (01:14:20) save 
+\i (01:14:21) fillin yes 
+\i (01:14:21) generaledit 
+\i (01:14:28) zoom out 1 
+\i (01:14:28) setwindow pcb
+\i (01:14:28) zoom out 13.4563 13.0474
+\i (01:14:28) trapsize 2618
+\i (01:14:29) zoom in 1 
+\i (01:14:29) setwindow pcb
+\i (01:14:29) zoom in 13.4563 13.0473
+\i (01:14:29) trapsize 1309
+\i (01:14:30) roam x 96 
+\i (01:14:30) roam x 96
+\i (01:14:30) roam y 96 
+\i (01:14:30) roam y 96
+\i (01:14:31) pick grid 28.8308 8.1002
+\t (01:14:31) last pick:  28.8300 8.1000
+\i (01:14:35) padeditdb 
+\i (01:14:36) pick grid 28.9355 7.8123
+\t (01:14:36) last pick:  28.9400 7.8100
+\i (01:14:36) prepopup 29.1711 7.6553
+\i (01:14:38) padeditcur 
+\i (01:15:25) roam y -96 
+\i (01:15:25) roam y -96
+\i (01:15:25) roam y -96 
+\i (01:15:25) roam y -96
+\i (01:15:25) roam y -96 
+\i (01:15:25) roam y -96
+\i (01:15:25) roam y -96 
+\i (01:15:25) roam y -96
+\i (01:15:25) roam y -96 
+\i (01:15:25) roam y -96
+\i (01:15:26) roam y -96 
+\i (01:15:26) roam y -96
+\i (01:15:26) roam y -96 
+\i (01:15:26) roam y -96
+\i (01:15:26) roam y -96 
+\i (01:15:26) roam y -96
+\i (01:15:27) roam x -96 
+\i (01:15:27) roam x -96
+\i (01:15:27) roam x -96 
+\i (01:15:27) roam x -96
+\i (01:15:28) roam y 96 
+\i (01:15:28) roam y 96
+\i (01:15:28) roam y 96 
+\i (01:15:28) roam y 96
+\i (01:15:28) roam y 96 
+\i (01:15:28) roam y 96
+\i (01:15:28) roam y 96 
+\i (01:15:28) roam y 96
+\i (01:15:28) roam y 96 
+\i (01:15:28) roam y 96
+\i (01:15:29) roam y 96 
+\i (01:15:29) roam y 96
+\i (01:15:29) roam y 96 
+\i (01:15:29) roam y 96
+\i (01:15:29) roam y 96 
+\i (01:15:29) roam y 96
+\i (01:16:20) artwork 
+\i (01:16:33) setwindow form.film_control
+\i (01:16:33) FORM film_control filmtree popup Cut BO 
+\i (01:16:35) FORM film_control filmtree  FAB 
+\i (01:16:36) FORM film_control filmtree popup Cut FAB 
+\i (01:16:39) FORM film_control filmtree popup Cut SMBOT 
+\i (01:16:41) FORM film_control filmtree popup Cut SMTOP 
+\i (01:16:44) FORM film_control filmtree popup Cut SPTOP 
+\i (01:16:45) FORM film_control filmtree popup Cut SSTOP 
+\i (01:16:50) FORM film_control filmtree  BOTTOM 
+\i (01:16:50) FORM film_control filmtree  TOP 
+\i (01:16:52) FORM film_control ok  
+\i (01:16:52) setwindow pcb
+\i (01:16:52) generaledit 
+\i (01:16:54) save 
+\i (01:16:55) fillin yes 
+\i (01:16:55) generaledit 
+\i (01:16:56) zoom out 1 
+\i (01:16:56) setwindow pcb
+\i (01:16:56) zoom out 18.0728 9.6969
+\i (01:16:56) trapsize 2618
+\i (01:17:47) roam y -96 
+\i (01:17:47) roam y -96
+\i (01:18:00) zoom out 1 
+\i (01:18:00) setwindow pcb
+\i (01:18:00) zoom out -24.5928 22.8631
+\i (01:18:00) trapsize 5235
+\i (01:18:01) roam x -96 
+\i (01:18:01) roam x -96
+\i (01:18:01) roam x 96 
+\i (01:18:01) roam x 96
+\i (01:18:02) roam x -96 
+\i (01:18:02) roam x -96
+\i (01:18:02) zoom in 1 
+\i (01:18:02) setwindow pcb
+\i (01:18:02) zoom in -8.3904 8.8333
+\i (01:18:02) trapsize 2618
+\i (01:18:03) roam x 96 
+\i (01:18:03) roam x 96
+\i (01:18:03) zoom in 1 
+\i (01:18:03) setwindow pcb
+\i (01:18:03) zoom in -1.1137 6.8440
+\i (01:18:03) trapsize 1309
+\i (01:18:03) roam x 96 
+\i (01:18:03) roam x 96
+\i (01:18:04) roam x 96 
+\i (01:18:04) roam x 96
+\i (01:18:04) roam x 96 
+\i (01:18:04) roam x 96
+\i (01:18:19) artwork 
+\i (01:18:28) generaledit 
+\i (01:19:02) zoom out 1 
+\i (01:19:02) setwindow pcb
+\i (01:19:02) zoom out 13.0995 8.9642
+\i (01:19:02) trapsize 2618
+\i (01:19:03) roam y -96 
+\i (01:19:03) roam y -96
+\i (01:19:03) roam y -96 
+\i (01:19:03) roam y -96
+\i (01:19:03) roam y -96 
+\i (01:19:03) roam y -96
+\i (01:19:03) roam y 96 
+\i (01:19:03) roam y 96
+\i (01:19:03) roam y 96 
+\i (01:19:03) roam y 96
+\i (01:19:04) roam y -96 
+\i (01:19:04) roam y -96
+\i (01:19:06) color192 
+\i (01:19:06) generaledit 
+\i (01:19:11) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (01:19:13) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (01:19:17) QtSignal CVDLayerTable VertHeader clickedCheckBox 17
+\i (01:19:17) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 17 0
+\i (01:19:19) QtSignal CVDLayerTable VertHeader clickedCheckBox 11
+\i (01:19:19) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 11 0
+\i (01:19:44) QtSignal CVDLayerTable VertHeader clickedCheckBox 17
+\i (01:19:44) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 17 0
+\i (01:19:46) QtSignal CVDLayerTable VertHeader clickedCheckBox 8
+\i (01:19:46) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 8 0
+\i (01:19:47) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (01:19:49) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 1 0
+\i (01:19:49) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
+\i (01:19:49) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (01:21:05) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (01:21:11) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (01:21:12) zoom out 1 
+\i (01:21:12) setwindow pcb
+\i (01:21:12) zoom out 14.4082 8.8855
+\i (01:21:12) trapsize 5235
+\i (01:21:15) artwork 
+\i (01:21:18) artwork 
+\i (01:21:19) zoom out 1 
+\i (01:21:19) setwindow pcb
+\i (01:21:19) zoom out 10.8485 17.2616
+\i (01:21:19) trapsize 10470
+\i (01:21:20) zoom in 1 
+\i (01:21:20) setwindow pcb
+\i (01:21:20) zoom in -1.3754 -12.8923
+\i (01:21:20) trapsize 5235
+\i (01:21:23) trapsize 5238
+\i (01:21:23) trapsize 5253
+\i (01:21:23) trapsize 5347
+\i (01:21:23) trapsize 5372
+\i (01:21:23) trapsize 5420
+\i (01:21:23) trapsize 5445
+\i (01:21:23) trapsize 5659
+\i (01:21:23) trapsize 5690
+\i (01:21:23) trapsize 5794
+\i (01:21:23) trapsize 5882
+\i (01:21:24) trapsize 5886
+\i (01:21:24) trapsize 5974
+\i (01:21:24) trapsize 6092
+\i (01:21:25) artwork 
+\i (01:21:27) save 
+\i (01:21:28) fillin yes 
+\i (01:21:28) generaledit 
+\i (01:21:32) ncdrill param 
+\i (01:21:32) generaledit 
+\i (01:21:33) setwindow form.nc_parameters
+\i (01:21:33) FORM nc_parameters cancel  
+\i (01:21:35) setwindow pcb
+\i (01:21:35) artwork 
+\i (01:22:49) trapsize 8917
+\i (01:22:51) trapsize 6092
+\i (01:22:54) artwork 
+\i (01:23:04) trapsize 8917
+\i (01:23:04) trapsize 6092
+\i (01:23:07) zoom out 1 
+\i (01:23:07) setwindow pcb
+\i (01:23:07) zoom out 63.9993 30.1219
+\i (01:23:07) trapsize 12184
+\i (01:23:07) zoom out 1 
+\i (01:23:07) setwindow pcb
+\i (01:23:07) zoom out 129.3739 30.1219
+\i (01:23:07) trapsize 19236
+\i (01:23:08) zoom in 1 
+\i (01:23:08) setwindow pcb
+\i (01:23:08) zoom in 15.8148 18.2877
+\i (01:23:08) trapsize 9618
+\i (01:23:08) zoom in 1 
+\i (01:23:08) setwindow pcb
+\i (01:23:08) zoom in -29.5815 41.5629
+\i (01:23:08) trapsize 4809
+\i (01:23:16) artwork 
+\i (01:23:26) exit 
+\e (01:23:26) Do you want to save the changes you made to D:/APLICATII/P1_2024_431E_NISIPEANU_ALEXANDRU_COSMIN_OW_N15_ORCAD/SCHEMATICS/allegro/NISIPEANU_ALEXANDRU_P1_N15.brd?
+\i (01:23:27) fillin yes 
+\t (01:23:27)     Journal end - Sun Dec 15 14:52:22 2024

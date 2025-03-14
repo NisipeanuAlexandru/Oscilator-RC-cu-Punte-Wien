@@ -1,0 +1,7 @@
+\t (00:00:00) padstack_editor 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sun Dec 15 15:45:39 2024
+\t (00:00:00)         Host=DESKTOP-RSR33AM User=nisip Pid=18672 CPUs=16
+\t (00:00:00) CmdLine= padstack_editor -mpssession nisip -file ./#Taaaaci23640.tmp -pname C100M200K200 -data C:/Users/nisip/AppData/Local/Temp/#Taaaack23640.tmp
+\t (00:00:00) 
+\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\t (00:00:04)     Journal end - Sun Dec 15 15:45:43 2024

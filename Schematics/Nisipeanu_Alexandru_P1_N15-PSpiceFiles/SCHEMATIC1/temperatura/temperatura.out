@@ -1,0 +1,926 @@
+
+**** 11/29/24 20:57:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temperatura"  [ D:\aplicatii\P1_2024_431E_Nisipeanu_Alexandru_Cosmin_OW_N15_OrCAD\Schematics\nisipeanu_alexa
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "temperatura.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c8v2.lib" 
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/irfr120npbf.lib" 
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/mjd31cg.lib" 
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/mjd32cg.lib" 
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/mmbfj177lt1g.lib" 
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/mmbfj309lt1g.lib" 
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/1n4148.lib" 
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/bc807-25.lib" 
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/bc817-25.lib" 
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/bc856b.lib" 
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c2v7.lib" 
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c5v1.lib" 
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c5v6.lib" 
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c6v2.lib" 
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c6v8.lib" 
+.LIB "c:/users/nisip/downloads/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c10.lib" 
+* From [PSPICE NETLIST] section of C:\Users\nisip\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 15m 0 1u 
+.TEMP -20 0 27 70 120
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source NISIPEANU_ALEXANDRU_P1_N15
+X_P3         N251120 N251224 N251224 POT PARAMS: SET=0.05 VALUE=10k
+C_C4         0 N251882  470n  TC=0,0 
+X_P2         IN+ 0 0 POT PARAMS: SET=0.05 VALUE=10k
+Q_Q4         N251024 N251092 N250992 QBC856B 
+Q_Q8         N251120 N251636 N251928 BC817-25 
+X_P1         0 N252066 N251882 POT PARAMS: SET=0.14 VALUE=500k
+C_C5         IN+ N251224  2.2n  TC=0,0 
+V_V3         0 N252108 11
+Q_Q9         N250792 N250792 N250958 BC817-25 
+R_R22         N251384 0  15k TC=0,0 
+Q_Q7         N251120 N251024 N250958 BC807-25 
+C_C1         N251120 N251024  470p  TC=0,0 
+R_R32         N250792 N250834  820 TC=0,0 
+R_R8         N252108 N251928  22 TC=0,0 
+R_R5         N251636 0  5.6k TC=0,0 
+J_T7         N251708 N252066 0 JMMBFJ309LT1 
+R_R7         N251350 N251708  10k TC=0,0 
+X_D8         N250834 0 LED PARAMS: IS=3.7602e-029 RS=25  BV=5 IBV=5e-6         
+X_R26         N251120 N251384 0 POT PARAMS: SET=0.45 VALUE=10K
+Q_Q5         N251636 N251636 N251922 QBC846B 
+R_R9         N251120 N251592  5k TC=0,0 
+R_R1         N250986 N250792  100 TC=0,0 
+R_R6         N251120 N251350  22k TC=0,0 
+R_R4         N252108 N2518321  51 TC=0,0 
+X_D9         0 N252112 LED PARAMS: IS=3.7602e-029 RS=25  BV=5 IBV=5e-6         
+R_R35         N252108 N252112  820 TC=0,0 
+R_R3         N252108 N251922  51 TC=0,0 
+Q_Q2         N251092 N251350 N251422 QBC817-25 
+Q_Q3         N251092 N251092 N250986 QBC856B 
+V_V4         N250792 0 11
+X_D3         N251882 N251592 awb1n4148 PARAMS:                
+Q_Q1         N251024 IN+ N251422 QBC817-25 
+R_R2         N250992 N250792  100 TC=0,0 
+Q_Q6         N251422 N251636 N2518321 QBC846B 
+C_C2         0 IN+  2.2n  TC=0,0 
+
+**** RESUMING temperatura.cir ****
+.END
+
+**** 11/29/24 20:57:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temperatura"  [ D:\aplicatii\P1_2024_431E_Nisipeanu_Alexandru_Cosmin_OW_N15_OrCAD\Schematics\nisipeanu_alexa
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_D8.model201   X_D9.model201   X_D3.model22    
+          IS   37.602000E-30   37.602000E-30    1.000000E-09 
+           N    2               2               1.55         
+          BV    5               5             120            
+         IBV    5.000000E-06    5.000000E-06    1            
+          RS   25              25                .5          
+          TT                                    5.000000E-09 
+         CJO                                    1.850000E-12 
+          VJ                                     .65         
+           M                                     .18         
+          EG                                    1.11         
+
+
+**** 11/29/24 20:57:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temperatura"  [ D:\aplicatii\P1_2024_431E_Nisipeanu_Alexandru_Cosmin_OW_N15_OrCAD\Schematics\nisipeanu_alexa
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC817-25       QBC846B         QBC856B         BC817-25        
+               NPN             NPN             PNP             NPN             
+       LEVEL    1               1               1               1            
+          IS   91.980000E-15   18.220000E-15   20.140000E-15   32.530000E-15 
+          BF  338.8           324.4           315.3           294.4          
+          NF    1.003            .9932           .9974          1            
+         VAF  107.9            82              39.15          100            
+         IKF     .4913           .109            .079            .8311       
+         ISE  446.800000E-18  289.400000E-18    6.578000E-15  318.500000E-15 
+          NE    1.65            1.4             1.45            1.642        
+          BR   29.48            8.29            8.68            5.855        
+          NR    1.002            .9931           .9952          1            
+         VAR   25              17.9             9.5                          
+         IKR     .193            .09             .09             .1075       
+         ISC    5.109000E-15    9.982000E-12   16.330000E-15  199.700000E-15 
+          NC    1.071           1.763           1.15            2.09         
+          NK                                                     .5663       
+         ISS    0               0               0               0            
+          RB    1              10              10                            
+         RBM    1               5               5.000000E-06                 
+         IRB    1.000000E+03    5.000000E-06    5.000000E-06                 
+          RE     .2126           .649            .663           0            
+          RC     .143            .7014           .718            .4196       
+         CJE   38.250000E-12   12.440000E-12   11.350000E-12   71.140000E-12 
+         VJE     .7004           .7579           .7071           .5          
+         MJE     .364            .3656           .3808           .3333       
+         CJC   12.700000E-12    3.347000E-12    6.395000E-12   24.290000E-12 
+         VJC     .4431           .5463           .4951           .5          
+         MJC     .3983           .391            .44             .3333       
+        XCJC     .4555           .6193           .6288          1            
+         CJS    0               0               0               0            
+         VJS     .75             .75             .75             .75         
+         MJS     .333            .333            .333                        
+          FC     .905            .979            .9059                       
+          TF  522.900000E-12  490.800000E-12  654.600000E-12  660.800000E-12 
+         XTF  219.7             9.51            5.387          88.29         
+         VTF    3.502           2.927           6.245          10            
+         ITF    7.257            .3131           .2108          2.569        
+          TR   70.000000E-12   90.000000E-09   55.000000E-09   10.000000E-09 
+         XTB                                                    1.5          
+          KF    0               0               0               0            
+          AF    1               1               1               1            
+          CN    2.42            2.42            2.2             2.42         
+           D     .87             .87             .52             .87         
+
+
+               BC807-25        
+               PNP             
+       LEVEL    1            
+          IS   32.530000E-15 
+          BF  340            
+          NF    1            
+         VAF  100            
+         IKF     .4118       
+         ISE  288.900000E-15 
+          NE    1.568        
+          BR    6.333        
+          NR    1            
+         IKR     .03284      
+         ISC  262.400000E-15 
+          NC    1.87         
+          NK     .5241       
+         ISS    0            
+          RE    0            
+          RC     .3998       
+         CJE   71.140000E-12 
+         VJE     .5          
+         MJE     .3333       
+         CJC   24.290000E-12 
+         VJC     .5          
+         MJC     .3333       
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          TF  704.100000E-12 
+         XTF    1.332000E+03 
+         VTF   10            
+         ITF   14.26         
+          TR   10.000000E-09 
+         XTB    1.5          
+          KF    0            
+          AF    1            
+          CN    2.2          
+           D     .52         
+
+
+**** 11/29/24 20:57:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temperatura"  [ D:\aplicatii\P1_2024_431E_Nisipeanu_Alexandru_Cosmin_OW_N15_OrCAD\Schematics\nisipeanu_alexa
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               JMMBFJ309LT1    
+               NJF             
+         VTO   -1.7          
+        BETA    5.560100E-03 
+      LAMBDA     .02184      
+          IS    1.333600E-12 
+          RD     .1          
+          RS     .1          
+         CGD    5.351520E-12 
+         CGS    5.071890E-12 
+          PB    2.41896      
+          KF    9.999820E-21 
+          AF     .200092     
+
+
+**** 11/29/24 20:57:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temperatura"  [ D:\aplicatii\P1_2024_431E_Nisipeanu_Alexandru_Cosmin_OW_N15_OrCAD\Schematics\nisipeanu_alexa
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =  -20.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                X_D8.model201  X_D9.model201  X_D3.model22  
+
+         IS        0.000E+00      0.000E+00      4.210E-12  
+         VJ        1.041E+00      1.041E+00      7.458E-01  
+        CJO        0.000E+00      0.000E+00      1.795E-12  
+         RS        2.500E+01      2.500E+01      5.000E-01  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        5.000E+00      5.000E+00      1.200E+02  
+
+
+ **** JFET MODEL PARAMETERS
+
+                JMMBFJ309LT1                                
+
+        VTO       -1.700E+00  
+       BETA        5.560E-03  
+         IS        2.772E-16  
+         PB        2.238E+00  
+        CGS        5.214E-12  
+        CGD        5.502E-12  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC856B       BC817-25       BC807-25    
+
+         BF        3.153E+02      2.280E+02      2.634E+02  
+        ISE        1.899E-17      2.352E-15      1.672E-15  
+        VJE        7.940E-01      6.193E-01      6.193E-01  
+        CJE        1.074E-11      6.504E-11      6.504E-11  
+         RE        6.630E-01      0.000E+00      0.000E+00  
+         RB        1.000E+01      0.000E+00      0.000E+00  
+         BR        8.680E+00      4.535E+00      4.905E+00  
+        ISC        1.026E-17      4.461E-15      3.637E-15  
+        VJC        6.152E-01      6.193E-01      6.193E-01  
+        CJC        5.660E-12      2.221E-11      2.221E-11  
+         RC        7.180E-01      4.196E-01      3.998E-01  
+        RBM        5.000E-06      0.000E+00      0.000E+00  
+         IS        4.186E-18      6.761E-18      6.761E-18  
+        ISS        0.000E+00      0.000E+00      0.000E+00  
+        VJS        8.302E-01      8.302E-01      8.302E-01  
+        CJS        0.000E+00      0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01      1.000E+01  
+
+                   QBC846B       QBC817-25                  
+
+         BF        3.244E+02      3.388E+02  
+        ISE        6.781E-19      2.621E-18  
+        VJE        8.368E-01      7.883E-01  
+        CJE        1.188E-11      3.624E-11  
+         RE        6.490E-01      2.126E-01  
+         RB        1.000E+01      1.000E+00  
+         BR        8.290E+00      2.948E+01  
+        ISC        8.139E-14      1.863E-18  
+        VJC        6.584E-01      5.713E-01  
+        CJC        3.054E-12      1.114E-11  
+         RC        7.014E-01      1.430E-01  
+        RBM        5.000E+00      1.000E+00  
+         IS        3.787E-18      1.912E-17  
+        ISS        0.000E+00      0.000E+00  
+        VJS        8.302E-01      8.302E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 11/29/24 20:57:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temperatura"  [ D:\aplicatii\P1_2024_431E_Nisipeanu_Alexandru_Cosmin_OW_N15_OrCAD\Schematics\nisipeanu_alexa
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =  -20.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  IN+)    -.0243  (N250792)   11.0000                   (N250834)    3.0795    
+
+(N250958)   10.2580                   (N250986)   10.9100                       
+
+(N250992)   10.9100                   (N251024)    9.5187                       
+
+(N251092)   10.1890                   (N251120)    -.0240                       
+
+(N251224)    -.0240                   (N251350)    -.0248                       
+
+(N251384)    -.0093                   (N251422)    -.7125                       
+
+(N251592)    -.0240                   (N251636)  -10.1740                       
+
+(N251708)-131.0E-06                   (N251882)-2.186E-06                       
+
+(N251922)  -10.9090                   (N251928)  -10.9140                       
+
+(N252066)-1.880E-06                   (N252108)  -11.0000                       
+
+(N252112)   -3.0795                   (N2518321)  -10.9070                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3        -1.722E-02
+    V_V4        -1.539E-02
+
+    TOTAL POWER DISSIPATION   3.59E-01  WATTS
+
+
+**** 11/29/24 20:57:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temperatura"  [ D:\aplicatii\P1_2024_431E_Nisipeanu_Alexandru_Cosmin_OW_N15_OrCAD\Schematics\nisipeanu_alexa
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =    0.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                X_D8.model201  X_D9.model201  X_D3.model22  
+
+         IS        3.914E-30      3.914E-30      5.397E-11  
+         VJ        1.024E+00      1.024E+00      7.055E-01  
+        CJO        0.000E+00      0.000E+00      1.818E-12  
+         RS        2.500E+01      2.500E+01      5.000E-01  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        5.000E+00      5.000E+00      1.200E+02  
+
+
+ **** JFET MODEL PARAMETERS
+
+                JMMBFJ309LT1                                
+
+        VTO       -1.700E+00  
+       BETA        5.560E-03  
+         IS        1.445E-14  
+         PB        2.315E+00  
+        CGS        5.153E-12  
+        CGD        5.437E-12  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC856B       BC817-25       BC807-25    
+
+         BF        3.153E+02      2.556E+02      2.952E+02  
+        ISE        2.903E-16      2.332E-14      1.857E-14  
+        VJE        7.574E-01      5.690E-01      5.690E-01  
+        CJE        1.100E-11      6.761E-11      6.761E-11  
+         RE        6.630E-01      0.000E+00      0.000E+00  
+         RB        1.000E+01      0.000E+00      0.000E+00  
+         BR        8.680E+00      5.083E+00      5.498E+00  
+        ISC        3.193E-16      2.639E-14      2.688E-14  
+        VJC        5.645E-01      5.690E-01      5.690E-01  
+        CJC        5.970E-12      2.309E-11      2.309E-11  
+         RC        7.180E-01      4.196E-01      3.998E-01  
+        RBM        5.000E-06      0.000E+00      0.000E+00  
+         IS        2.182E-16      3.525E-16      3.525E-16  
+        ISS        0.000E+00      0.000E+00      0.000E+00  
+        VJS        7.965E-01      7.965E-01      7.965E-01  
+        CJS        0.000E+00      0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01      1.000E+01  
+
+                   QBC846B       QBC817-25                  
+
+         BF        3.244E+02      3.388E+02  
+        ISE        1.142E-17      2.878E-17  
+        VJE        8.037E-01      7.513E-01  
+        CJE        1.212E-11      3.709E-11  
+         RE        6.490E-01      2.126E-01  
+         RB        1.000E+01      1.000E+00  
+         BR        8.290E+00      2.948E+01  
+        ISC        7.666E-13      7.472E-17  
+        VJC        6.111E-01      5.172E-01  
+        CJC        3.178E-12      1.180E-11  
+         RC        7.014E-01      1.430E-01  
+        RBM        5.000E+00      1.000E+00  
+         IS        1.974E-16      9.966E-16  
+        ISS        0.000E+00      0.000E+00  
+        VJS        7.965E-01      7.965E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 11/29/24 20:57:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temperatura"  [ D:\aplicatii\P1_2024_431E_Nisipeanu_Alexandru_Cosmin_OW_N15_OrCAD\Schematics\nisipeanu_alexa
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =    0.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  IN+)    -.0244  (N250792)   11.0000                   (N250834)    3.2060    
+
+(N250958)   10.2930                   (N250986)   10.9090                       
+
+(N250992)   10.9090                   (N251024)    9.5875                       
+
+(N251092)   10.2250                   (N251120)    -.0239                       
+
+(N251224)    -.0239                   (N251350)    -.0249                       
+
+(N251384)    -.0092                   (N251422)    -.6737                       
+
+(N251592)    -.0239                   (N251636)  -10.2080                       
+
+(N251708)-131.3E-06                   (N251882)-24.88E-06                       
+
+(N251922)  -10.9080                   (N251928)  -10.9130                       
+
+(N252066)-21.39E-06                   (N252108)  -11.0000                       
+
+(N252112)   -3.2060                   (N2518321)  -10.9060                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3        -1.710E-02
+    V_V4        -1.527E-02
+
+    TOTAL POWER DISSIPATION   3.56E-01  WATTS
+
+
+**** 11/29/24 20:57:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temperatura"  [ D:\aplicatii\P1_2024_431E_Nisipeanu_Alexandru_Cosmin_OW_N15_OrCAD\Schematics\nisipeanu_alexa
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                X_D8.model201  X_D9.model201  X_D3.model22  
+
+         IS        3.760E-29      3.760E-29      1.000E-09  
+         VJ        1.000E+00      1.000E+00      6.500E-01  
+        CJO        0.000E+00      0.000E+00      1.850E-12  
+         RS        2.500E+01      2.500E+01      5.000E-01  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        5.000E+00      5.000E+00      1.200E+02  
+
+
+ **** JFET MODEL PARAMETERS
+
+                JMMBFJ309LT1                                
+
+        VTO       -1.700E+00  
+       BETA        5.560E-03  
+         IS        1.334E-12  
+         PB        2.419E+00  
+        CGS        5.072E-12  
+        CGD        5.352E-12  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC856B       BC817-25       BC807-25    
+
+         BF        3.153E+02      2.944E+02      3.400E+02  
+        ISE        6.578E-15      3.185E-13      2.889E-13  
+        VJE        7.071E-01      5.000E-01      5.000E-01  
+        CJE        1.135E-11      7.114E-11      7.114E-11  
+         RE        6.630E-01      0.000E+00      0.000E+00  
+         RB        1.000E+01      0.000E+00      0.000E+00  
+         BR        8.680E+00      5.855E+00      6.333E+00  
+        ISC        1.633E-14      1.997E-13      2.624E-13  
+        VJC        4.951E-01      5.000E-01      5.000E-01  
+        CJC        6.395E-12      2.429E-11      2.429E-11  
+         RC        7.180E-01      4.196E-01      3.998E-01  
+        RBM        5.000E-06      0.000E+00      0.000E+00  
+         IS        2.014E-14      3.253E-14      3.253E-14  
+        ISS        0.000E+00      0.000E+00      0.000E+00  
+        VJS        7.500E-01      7.500E-01      7.500E-01  
+        CJS        0.000E+00      0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01      1.000E+01  
+
+                   QBC846B       QBC817-25                  
+
+         BF        3.244E+02      3.388E+02  
+        ISE        2.894E-16      4.468E-16  
+        VJE        7.579E-01      7.004E-01  
+        CJE        1.244E-11      3.825E-11  
+         RE        6.490E-01      2.126E-01  
+         RB        1.000E+01      1.000E+00  
+         BR        8.290E+00      2.948E+01  
+        ISC        9.982E-12      5.109E-15  
+        VJC        5.463E-01      4.431E-01  
+        CJC        3.347E-12      1.270E-11  
+         RC        7.014E-01      1.430E-01  
+        RBM        5.000E+00      1.000E+00  
+         IS        1.822E-14      9.198E-14  
+        ISS        0.000E+00      0.000E+00  
+        VJS        7.500E-01      7.500E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 11/29/24 20:57:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temperatura"  [ D:\aplicatii\P1_2024_431E_Nisipeanu_Alexandru_Cosmin_OW_N15_OrCAD\Schematics\nisipeanu_alexa
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  IN+)    -.0245  (N250792)   11.0000                   (N250834)    3.3761    
+
+(N250958)   10.3400                   (N250986)   10.9090                       
+
+(N250992)   10.9080                   (N251024)    9.6816                       
+
+(N251092)   10.2730                   (N251120)    -.0237                       
+
+(N251224)    -.0237                   (N251350)    -.0249                       
+
+(N251384)    -.0092                   (N251422)    -.6206                       
+
+(N251592)    -.0237                   (N251636)  -10.2550                       
+
+(N251708)-131.6E-06                   (N251882)-394.0E-06                       
+
+(N251922)  -10.9080                   (N251928)  -10.9120                       
+
+(N252066)-338.8E-06                   (N252108)  -11.0000                       
+
+(N252112)   -3.3761                   (N2518321)  -10.9050                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3        -1.695E-02
+    V_V4        -1.511E-02
+
+    TOTAL POWER DISSIPATION   3.53E-01  WATTS
+
+
+**** 11/29/24 20:57:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temperatura"  [ D:\aplicatii\P1_2024_431E_Nisipeanu_Alexandru_Cosmin_OW_N15_OrCAD\Schematics\nisipeanu_alexa
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   70.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                X_D8.model201  X_D9.model201  X_D3.model22  
+
+         IS        6.764E-28      6.764E-28      4.163E-08  
+         VJ        9.596E-01      9.596E-01      5.594E-01  
+        CJO        0.000E+00      0.000E+00      1.902E-12  
+         RS        2.500E+01      2.500E+01      5.000E-01  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        5.000E+00      5.000E+00      1.200E+02  
+
+
+ **** JFET MODEL PARAMETERS
+
+                JMMBFJ309LT1                                
+
+        VTO       -1.700E+00  
+       BETA        5.560E-03  
+         IS        4.316E-10  
+         PB        2.582E+00  
+        CGS        4.945E-12  
+        CGD        5.217E-12  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC856B       BC817-25       BC807-25    
+
+         BF        3.153E+02      3.599E+02      4.156E+02  
+        ISE        3.541E-13      8.801E-12      9.425E-12  
+        VJE        6.247E-01      3.880E-01      3.880E-01  
+        CJE        1.193E-11      7.686E-11      7.686E-11  
+         RE        6.630E-01      0.000E+00      0.000E+00  
+         RB        1.000E+01      0.000E+00      0.000E+00  
+         BR        8.680E+00      7.157E+00      7.742E+00  
+        ISC        2.487E-12      2.595E-12      4.721E-12  
+        VJC        3.824E-01      3.880E-01      3.880E-01  
+        CJC        7.084E-12      2.624E-11      2.624E-11  
+         RC        7.180E-01      4.196E-01      3.998E-01  
+        RBM        5.000E-06      0.000E+00      0.000E+00  
+         IS        6.517E-12      1.053E-11      1.053E-11  
+        ISS        0.000E+00      0.000E+00      0.000E+00  
+        VJS        6.738E-01      6.738E-01      6.738E-01  
+        CJS        0.000E+00      0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01      1.000E+01  
+
+                   QBC846B       QBC817-25                  
+
+         BF        3.244E+02      3.388E+02  
+        ISE        1.796E-14      1.484E-14  
+        VJE        6.828E-01      6.171E-01  
+        CJE        1.297E-11      4.015E-11  
+         RE        6.490E-01      2.126E-01  
+         RB        1.000E+01      1.000E+00  
+         BR        8.290E+00      2.948E+01  
+        ISC        2.648E-10      1.127E-12  
+        VJC        4.409E-01      3.229E-01  
+        CJC        3.622E-12      1.416E-11  
+         RC        7.014E-01      1.430E-01  
+        RBM        5.000E+00      1.000E+00  
+         IS        5.896E-12      2.976E-11  
+        ISS        0.000E+00      0.000E+00  
+        VJS        6.738E-01      6.738E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 11/29/24 20:57:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temperatura"  [ D:\aplicatii\P1_2024_431E_Nisipeanu_Alexandru_Cosmin_OW_N15_OrCAD\Schematics\nisipeanu_alexa
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   70.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  IN+)    -.0246  (N250792)   11.0000                   (N250834)    3.6452    
+
+(N250958)   10.4160                   (N250986)   10.9070                       
+
+(N250992)   10.9070                   (N251024)    9.8339                       
+
+(N251092)   10.3510                   (N251120)    -.0235                       
+
+(N251224)    -.0235                   (N251350)    -.0250                       
+
+(N251384)    -.0091                   (N251422)    -.5349                       
+
+(N251592)    -.0234                   (N251636)  -10.3300                       
+
+(N251708)-132.6E-06                   (N251882)    -.0081                       
+
+(N251922)  -10.9070                   (N251928)  -10.9110                       
+
+(N252066)    -.0070                   (N252108)  -11.0000                       
+
+(N252112)   -3.6452                   (N2518321)  -10.9040                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3        -1.670E-02
+    V_V4        -1.485E-02
+
+    TOTAL POWER DISSIPATION   3.47E-01  WATTS
+
+
+**** 11/29/24 20:57:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temperatura"  [ D:\aplicatii\P1_2024_431E_Nisipeanu_Alexandru_Cosmin_OW_N15_OrCAD\Schematics\nisipeanu_alexa
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =  120.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                X_D8.model201  X_D9.model201  X_D3.model22  
+
+         IS        9.026E-27      9.026E-27      1.179E-06  
+         VJ        9.095E-01      9.095E-01      4.511E-01  
+        CJO        0.000E+00      0.000E+00      1.964E-12  
+         RS        2.500E+01      2.500E+01      5.000E-01  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        5.000E+00      5.000E+00      1.200E+02  
+
+
+ **** JFET MODEL PARAMETERS
+
+                JMMBFJ309LT1                                
+
+        VTO       -1.700E+00  
+       BETA        5.560E-03  
+         IS        7.684E-08  
+         PB        2.768E+00  
+        CGS        4.800E-12  
+        CGD        5.065E-12  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC856B       BC817-25       BC807-25    
+
+         BF        3.153E+02      4.413E+02      5.097E+02  
+        ISE        1.263E-11      1.685E-10      2.094E-10  
+        VJE        5.259E-01      2.546E-01      2.546E-01  
+        CJE        1.262E-11      8.366E-11      8.366E-11  
+         RE        6.630E-01      0.000E+00      0.000E+00  
+         RB        1.000E+01      0.000E+00      0.000E+00  
+         BR        8.680E+00      8.777E+00      9.494E+00  
+        ISC        2.252E-10      2.525E-11      6.150E-11  
+        VJC        2.482E-01      2.546E-01      2.546E-01  
+        CJC        7.903E-12      2.856E-11      2.856E-11  
+         RC        7.180E-01      4.196E-01      3.998E-01  
+        RBM        5.000E-06      0.000E+00      0.000E+00  
+         IS        1.161E-09      1.874E-09      1.874E-09  
+        ISS        0.000E+00      0.000E+00      0.000E+00  
+        VJS        5.821E-01      5.821E-01      5.821E-01  
+        CJS        0.000E+00      0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01      1.000E+01  
+
+                   QBC846B       QBC817-25                  
+
+         BF        3.244E+02      3.388E+02  
+        ISE        7.276E-13      3.430E-13  
+        VJE        5.924E-01      5.171E-01  
+        CJE        1.360E-11      4.241E-11  
+         RE        6.490E-01      2.126E-01  
+         RB        1.000E+01      1.000E+00  
+         BR        8.290E+00      2.948E+01  
+        ISC        5.006E-09      1.423E-10  
+        VJC        3.153E-01      1.801E-01  
+        CJC        3.949E-12      1.589E-11  
+         RC        7.014E-01      1.430E-01  
+        RBM        5.000E+00      1.000E+00  
+         IS        1.050E-09      5.300E-09  
+        ISS        0.000E+00      0.000E+00  
+        VJS        5.821E-01      5.821E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 11/29/24 20:57:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temperatura"  [ D:\aplicatii\P1_2024_431E_Nisipeanu_Alexandru_Cosmin_OW_N15_OrCAD\Schematics\nisipeanu_alexa
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =  120.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  IN+)    -.0248  (N250792)   11.0000                   (N250834)    3.9558    
+
+(N250958)   10.5060                   (N250986)   10.9060                       
+
+(N250992)   10.9060                   (N251024)   10.0140                       
+
+(N251092)   10.4440                   (N251120)    -.0232                       
+
+(N251224)    -.0232                   (N251350)    -.0251                       
+
+(N251384)    -.0090                   (N251422)    -.4335                       
+
+(N251592)    -.0228                   (N251636)  -10.4190                       
+
+(N251708)-135.0E-06                   (N251882)    -.0193                       
+
+(N251922)  -10.9060                   (N251928)  -10.9100                       
+
+(N252066)    -.0136                   (N252108)  -11.0000                       
+
+(N252112)   -3.9558                   (N2518321)  -10.9030                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3        -1.641E-02
+    V_V4        -1.454E-02
+
+    TOTAL POWER DISSIPATION   3.40E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/29/24 20:57:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temperatura"  [ D:\aplicatii\P1_2024_431E_Nisipeanu_Alexandru_Cosmin_OW_N15_OrCAD\Schematics\nisipeanu_alexa
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =        4.24
+  Total job time (using Solver 1)   =       12.23
+

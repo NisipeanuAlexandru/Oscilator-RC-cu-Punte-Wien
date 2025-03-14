@@ -1,0 +1,15 @@
+\t (00:00:00) padstack_editor 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sun Dec 15 15:45:00 2024
+\t (00:00:00)         Host=DESKTOP-RSR33AM User=nisip Pid=4928 CPUs=16
+\t (00:00:00) CmdLine= padstack_editor -mpssession nisip -file ./#Taaaacf23640.tmp -pname C100M200K200 -data C:/Users/nisip/AppData/Local/Temp/#Taaaach23640.tmp
+\t (00:00:00) 
+\d (00:00:01) QtSignal MainWindow Units CurrentIndexChanged Mils
+\d (00:00:02) QtFillin Yes
+\w (00:00:02) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:02) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\d (00:00:02) QtSignal MainWindow Units activated Mils
+\d (00:00:08) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:20) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:22) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:30) QtFillin No
+\t (00:00:30)     Journal end - Sun Dec 15 15:45:31 2024

@@ -1,0 +1,251 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  D:.../SCHEMATICS/allegro/NISIPEANU_ALEXANDRU_P1_N15.brd                     |
+|                                                    Mon Dec 02 02:47:55 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins ADDED TO this new net
+                                 C2.1           C4.1           D8.1           
+                                 D9.2           J1.1           J2.1           
+                                 J3.1           P1.3           P2.1           
+                                 P2.2           R5.2           R22.2          
+                                 R26.1          T7.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IN+          pins ADDED TO this new net
+                                 C2.2           C5.1           P2.3           
+                                 Q1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N250834      pins ADDED TO this new net
+                                 D8.2           R32.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N250958      pins ADDED TO this new net
+                                 Q7.2           Q9.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N250986      pins ADDED TO this new net
+                                 Q3.2           R1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N250992      pins ADDED TO this new net
+                                 Q4.2           R2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N251024      pins ADDED TO this new net
+                                 C1.2           Q1.3           Q4.3           
+                                 Q7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N251092      pins ADDED TO this new net
+                                 Q2.3           Q3.1           Q3.3           
+                                 Q4.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N251120      pins ADDED TO this new net
+                                 C1.1           P3.3           Q7.3           
+                                 Q8.3           R6.1           R9.1           
+                                 R26.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N251224      pins ADDED TO this new net
+                                 C5.2           P3.1           P3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N251350      pins ADDED TO this new net
+                                 Q2.2           R6.2           R7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N251422      pins ADDED TO this new net
+                                 Q1.1           Q2.1           Q6.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  D:.../SCHEMATICS/allegro/NISIPEANU_ALEXANDRU_P1_N15.brd                     |
+|                                                    Mon Dec 02 02:47:55 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N251592      pins ADDED TO this new net
+                                 D3.C           R9.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N251636      pins ADDED TO this new net
+                                 Q5.1           Q5.3           Q6.1           
+                                 Q8.1           R5.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N251708      pins ADDED TO this new net
+                                 R7.2           T7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N251882      pins ADDED TO this new net
+                                 C4.2           D3.A           P1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N251922      pins ADDED TO this new net
+                                 Q5.2           R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N251928      pins ADDED TO this new net
+                                 Q8.2           R8.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N252066      pins ADDED TO this new net
+                                 P1.2           T7.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N252112      pins ADDED TO this new net
+                                 D9.1           R35.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N2518321     pins ADDED TO this new net
+                                 Q6.2           R4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this new net
+                                 J1.2           Q9.1           Q9.3           
+                                 R1.2           R2.2           R32.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VOUT         pins ADDED TO this new net
+                                 J2.2           R22.1          R26.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VSS          pins ADDED TO this new net
+                                 J3.2           R3.1           R4.1           
+                                 R8.1           R35.1          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:.../SCHEMATICS/allegro/NISIPEANU_ALEXANDRU_P1_N15.brd                     |
+|                                                    Mon Dec 02 02:47:55 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 1N4148_0_SMD0805_1N4148
+ BC807-25_0_TO236_BC807-25
+ BC817-25_1_TO236_BC817-25
+ CON2_SMR2512_CON2
+ C_SMC0805_2.2N
+ C_SMC0805_470N
+ C_SMC0805_470P
+ JMMBFJ309LT1_1_TO236_JMMBFJ309L
+ LED_0_SMD080512_5V,SMD2012B,LED
+ POT_0_TS53YL_10K
+ POT_0_TS53YL_500K
+ QBC817-25_TO236_QBC817-25
+ QBC846B_3_TO236_QBC846B
+ QBC856B_1_TO236_QBC856B
+ R_SMR0805_5.6K
+ R_SMR0805_10K
+ R_SMR0805_15K
+ R_SMR0805_22K
+ R_SMR0805_22
+ R_SMR0805_51
+ R_SMR0805_100
+ R_SMR0805_820
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  D:.../SCHEMATICS/allegro/NISIPEANU_ALEXANDRU_P1_N15.brd                     |
+|                                                    Mon Dec 02 02:47:55 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  C_SMC0805_470P        
+ C2                  C_SMC0805_2.2N        
+ C4                  C_SMC0805_470N        
+ C5                  C_SMC0805_2.2N        
+ D3                  1N4148_0_SMD0805_1N4148 
+ D8                  LED_0_SMD080512_5V,SMD2012B,LED 
+ D9                  LED_0_SMD080512_5V,SMD2012B,LED 
+ J1                  CON2_SMR2512_CON2     
+ J2                  CON2_SMR2512_CON2     
+ J3                  CON2_SMR2512_CON2     
+ P1                  POT_0_TS53YL_500K     
+ P2                  POT_0_TS53YL_10K      
+ P3                  POT_0_TS53YL_10K      
+ Q1                  QBC817-25_TO236_QBC817-25 
+ Q2                  QBC817-25_TO236_QBC817-25 
+ Q3                  QBC856B_1_TO236_QBC856B 
+ Q4                  QBC856B_1_TO236_QBC856B 
+ Q5                  QBC846B_3_TO236_QBC846B 
+ Q6                  QBC846B_3_TO236_QBC846B 
+ Q7                  BC807-25_0_TO236_BC807-25 
+ Q8                  BC817-25_1_TO236_BC817-25 
+ Q9                  BC817-25_1_TO236_BC817-25 
+ R1                  R_SMR0805_100         
+ R2                  R_SMR0805_100         
+ R3                  R_SMR0805_51          
+ R4                  R_SMR0805_51          
+ R5                  R_SMR0805_5.6K        
+ R6                  R_SMR0805_22K         
+ R7                  R_SMR0805_10K         
+ R8                  R_SMR0805_22          
+ R9                  R_SMR0805_5.6K        
+ R22                 R_SMR0805_15K         
+ R26                 POT_0_TS53YL_10K      
+ R32                 R_SMR0805_820         
+ R35                 R_SMR0805_820         
+ T7                  JMMBFJ309LT1_1_TO236_JMMBFJ309L 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  D:.../SCHEMATICS/allegro/NISIPEANU_ALEXANDRU_P1_N15.brd                     |
+|                                                    Mon Dec 02 02:47:55 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ D3.C                           PRIM_FILE      .\pstchip.dat
+ D8.2                           PRIM_FILE      .\pstchip.dat
+ D9.2                           PRIM_FILE      .\pstchip.dat
+ J1.2                           PRIM_FILE      .\pstchip.dat
+ J2.2                           PRIM_FILE      .\pstchip.dat
+ J3.2                           PRIM_FILE      .\pstchip.dat
+ P1.2                           PRIM_FILE      .\pstchip.dat
+ P2.2                           PRIM_FILE      .\pstchip.dat
+ P3.2                           PRIM_FILE      .\pstchip.dat
+ Q1.1                           PRIM_FILE      .\pstchip.dat
+ Q2.1                           PRIM_FILE      .\pstchip.dat
+ Q3.2                           PRIM_FILE      .\pstchip.dat
+ Q4.2                           PRIM_FILE      .\pstchip.dat
+ Q5.2                           PRIM_FILE      .\pstchip.dat
+ Q6.2                           PRIM_FILE      .\pstchip.dat
+ Q7.2                           PRIM_FILE      .\pstchip.dat
+ Q8.2                           PRIM_FILE      .\pstchip.dat
+ Q9.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R22.2                          PRIM_FILE      .\pstchip.dat
+ R26.2                          PRIM_FILE      .\pstchip.dat
+ R32.2                          PRIM_FILE      .\pstchip.dat
+ R35.2                          PRIM_FILE      .\pstchip.dat
+ T7.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  D:.../SCHEMATICS/allegro/NISIPEANU_ALEXANDRU_P1_N15.brd                     |
+|                                                    Mon Dec 02 02:47:55 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :      86                                        |
+|       Comp definitions added:      22                                        |
+|       Components added      :      36                                        |
+|       Slot property added   :      36                                        |
+|                                                                              |
+|   Total ECO changes reported:     180                                        |
+|------------------------------------------------------------------------------|
