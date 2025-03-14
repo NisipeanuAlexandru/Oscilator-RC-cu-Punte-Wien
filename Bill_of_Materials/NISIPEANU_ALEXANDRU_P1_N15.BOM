@@ -1,0 +1,51 @@
+  Revised: Saturday, November 30, 2024
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials       December 15,2024      14:10:59	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	1	C1	470p
+2	2	C2	2.2n
+		C5	2.2n
+3	1	C4	470n
+4	1	D3	1N4148
+5	2	D8	5V,SMD2012B,LED
+		D9	5V,SMD2012B,LED
+6	3	J1	CON2
+		J2	CON2
+		J3	CON2
+7	1	P1	500k
+8	4	P2	10k
+		P3	10k
+		R7	10k
+		R26	10K
+9	2	Q1	QBC817-25
+		Q2	QBC817-25
+10	2	Q3	QBC856B
+		Q4	QBC856B
+11	2	Q5	QBC846B
+		Q6	QBC846B
+12	1	Q7	BC807-25
+13	2	Q8	BC817-25
+		Q9	BC817-25
+14	2	R1	100
+		R2	100
+15	2	R3	51
+		R4	51
+16	2	R5	5.6k
+		R9	5.6k
+17	1	R6	22k
+18	1	R8	22
+19	1	R22	15k
+20	2	R32	820
+		R35	820
+21	1	T7	JMMBFJ309LT1 
+
